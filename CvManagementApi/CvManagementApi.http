@@ -1,0 +1,6 @@
+@CvManagementApi_HostAddress = http://localhost:5275
+
+GET {{CvManagementApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
