@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CvManagementApi.props" />
+</Project>

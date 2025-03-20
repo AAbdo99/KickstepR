@@ -1,44 +1,104 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// 🔹 Legg til databasekobling + lastet ned riktig pakke: dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+ 
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+// 🔹 Legg til Identity og autentisering
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
+
+// 🔹 Sikre at Jwt:Key ikke er null
+var jwtKey = builder.Configuration["Jwt:Key"] ?? throw new Exception("Jwt:Key is missing in appsettings.json");
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+        };
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+});
+
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CV Management API", Version = "v1" });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Middleware for autentisering og autorisasjon
+app.UseAuthentication();
+app.UseAuthorization();
+
+// Legg til Swagger for API-dokumentasjon
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
-var summaries = new[]
+// 🔹 Opprett adminbruker hvis den ikke finnes
+using (var scope = app.Services.CreateScope())
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+    if (!await roleManager.RoleExistsAsync("Admin"))
+    {
+        await roleManager.CreateAsync(new IdentityRole("Admin"));
+    }
 
-app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    var adminUser = await userManager.FindByNameAsync("admin");
+    if (adminUser == null)
+    {
+        var newAdmin = new User
+        {
+            UserName = "admin",
+            Email = "admin@example.com",
+            Role = UserRole.Admin
+        };
+        var result = await userManager.CreateAsync(newAdmin, "admin2025");
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(newAdmin, "Admin");
+        }
+    }
 }
+var supportedCultures = new[] { new CultureInfo("nb-NO") };
+var localizationOptions = new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture("nb-NO"),
+    SupportedCultures = supportedCultures,
+    SupportedUICultures = supportedCultures
+};
+app.UseRequestLocalization(localizationOptions);
+
+
+app.MapControllers();
+app.Run();
