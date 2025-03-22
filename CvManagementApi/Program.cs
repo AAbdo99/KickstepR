@@ -9,18 +9,20 @@ using Microsoft.AspNetCore.Localization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔹 Legg til databasekobling + lastet ned riktig pakke: dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+// Legg til databasekobling + lastet ned riktig pakke: dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
  
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(9, 0, 0))));
 
 
-// 🔹 Legg til Identity og autentisering
+
+// Legg til Identity og autentisering
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
-// 🔹 Sikre at Jwt:Key ikke er null
+// Sikre at Jwt:Key ikke er null
 var jwtKey = builder.Configuration["Jwt:Key"] ?? throw new Exception("Jwt:Key is missing in appsettings.json");
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -90,14 +92,24 @@ using (var scope = app.Services.CreateScope())
         }
     }
 }
-var supportedCultures = new[] { new CultureInfo("nb-NO") };
-var localizationOptions = new RequestLocalizationOptions
-{
-    DefaultRequestCulture = new RequestCulture("nb-NO"),
-    SupportedCultures = supportedCultures,
-    SupportedUICultures = supportedCultures
-};
-app.UseRequestLocalization(localizationOptions);
+
+//CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+//CultureInfo.DefaultThreadCurrentUICulture = new CultureInfo("en-US");
+// Midlertidig bruk invariant culture så appen starter
+//CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
+//CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.InvariantCulture;
+
+
+
+//var supportedCultures = new[] { new CultureInfo("en-US") };
+//var localizationOptions = new RequestLocalizationOptions
+//{
+//    DefaultRequestCulture = new RequestCulture("en-US"),
+//    SupportedCultures = supportedCultures,
+//    SupportedUICultures = supportedCultures
+//};
+//app.UseRequestLocalization(localizationOptions);
+
 
 
 app.MapControllers();

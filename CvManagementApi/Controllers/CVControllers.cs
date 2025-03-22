@@ -35,8 +35,31 @@ public class CVController : ControllerBase
         cv.UserId = user.Id;
         _context.CVs.Add(cv);
         await _context.SaveChangesAsync();
-        
+
         return Ok(cv);
+    }
+
+    // Hent alle CV-er (Admin ser alt, vanlige brukere ser kun sine egne eller de de har tilgang til)
+    [HttpGet]
+    [Authorize]
+    public async Task<IActionResult> GetAllCVs()
+    {
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null) return Unauthorized();
+
+        IQueryable<CV> query = _context.CVs
+            .Include(c => c.Skills)
+            .Include(c => c.Educations)
+            .Include(c => c.Experiences)
+            .Include(c => c.References);
+
+        if (user.Role != UserRole.Admin)
+        {
+            query = query.Where(c => c.UserId == user.Id);
+        }
+
+        var cvs = await query.ToListAsync();
+        return Ok(cvs);
     }
 
     // Hent en CV (Admin eller bruker med tilgang)
@@ -57,7 +80,7 @@ public class CVController : ControllerBase
     }
 
 
-     // Oppdater en CV- Kun eieren altså bruker eller Admin
+    // Oppdater en CV- Kun eieren altså bruker eller Admin
     [HttpPut("update/{id}")]
     [Authorize]
     public async Task<IActionResult> UpdateCV(int id, [FromBody] CV updatedCV)
@@ -80,7 +103,7 @@ public class CVController : ControllerBase
         cv.Educations = updatedCV.Educations;
         cv.Experiences = updatedCV.Experiences;
         cv.References = updatedCV.References;
-        
+
         await _context.SaveChangesAsync();
         return Ok(cv);
     }

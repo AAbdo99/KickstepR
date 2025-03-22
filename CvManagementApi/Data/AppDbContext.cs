@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics; // Legg til denne!
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 public class AppDbContext : IdentityDbContext<User>
 {
