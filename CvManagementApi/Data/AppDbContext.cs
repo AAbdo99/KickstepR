@@ -16,13 +16,24 @@ public class AppDbContext : IdentityDbContext<User>
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        // Ignorer feil, ved småjusteringer. krever ikke migrasjon med engang og praktisk under utvikling. 
         optionsBuilder.ConfigureWarnings(warnings =>
-            warnings.Ignore(RelationalEventId.PendingModelChangesWarning)); // 🔹 Ignorer feilen
+            warnings.Ignore(RelationalEventId.PendingModelChangesWarning)); 
+
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
+
+        // Endre Identity-tabellnavn
+        builder.Entity<User>().ToTable("Users");
+        builder.Entity<IdentityRole>().ToTable("Roles");
+        builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
+        builder.Entity<IdentityUserClaim<string>>().ToTable("UserClaims");
+        builder.Entity<IdentityUserLogin<string>>().ToTable("UserLogins");
+        builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
+        builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims");
 
         builder.Entity<CV>()
             .HasOne(c => c.User)
@@ -53,45 +64,5 @@ public class AppDbContext : IdentityDbContext<User>
             .WithMany(c => c.References)
             .HasForeignKey(r => r.CVId)
             .OnDelete(DeleteBehavior.Cascade);
-
-        // 🔹 TESTDATA (HARDCODED, INGEN GUID ELLER DATOER)
-        var testUser = new User
-        {
-            Id = "test-user-1",
-            UserName = "testuser",
-            Email = "testuser@example.com",
-            Role = UserRole.User
-        };
-
-        var adminUser = new User
-        {
-            Id = "admin-user-1",
-            UserName = "admin",
-            Email = "admin@example.com",
-            Role = UserRole.Admin
-        };
-
-        var testCV = new CV
-        {
-            Id = -1,  // 🔹 Endret fra 1 til -1 for å unngå kollisjon
-            UserId = testUser.Id,
-            FirstName = "Test",
-            LastName = "Bruker",
-            Email = "testuser@example.com",
-            Phone = 12345678
-        };
-
-        var adminCV = new CV
-        {
-            Id = -2,  // 🔹 Endret fra 2 til -2 for å unngå kollisjon
-            UserId = adminUser.Id, 
-            FirstName = "Admin",
-            LastName = "User",
-            Email = "admin@example.com",
-            Phone = 98765432
-        };
-
-        builder.Entity<User>().HasData(testUser, adminUser);
-        builder.Entity<CV>().HasData(testCV, adminCV);
     }
 }

@@ -52,26 +52,6 @@ namespace CvManagementApi.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("CVs");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = -1,
-                            Email = "testuser@example.com",
-                            FirstName = "Test",
-                            LastName = "Bruker",
-                            Phone = 12345678,
-                            UserId = "test-user-1"
-                        },
-                        new
-                        {
-                            Id = -2,
-                            Email = "admin@example.com",
-                            FirstName = "Admin",
-                            LastName = "User",
-                            Phone = 98765432,
-                            UserId = "admin-user-1"
-                        });
                 });
 
             modelBuilder.Entity("Education", b =>
@@ -149,7 +129,7 @@ namespace CvManagementApi.Migrations
                         .IsUnique()
                         .HasDatabaseName("RoleNameIndex");
 
-                    b.ToTable("AspNetRoles", (string)null);
+                    b.ToTable("Roles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -174,7 +154,7 @@ namespace CvManagementApi.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetRoleClaims", (string)null);
+                    b.ToTable("RoleClaims", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -199,7 +179,7 @@ namespace CvManagementApi.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserClaims", (string)null);
+                    b.ToTable("UserClaims", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
@@ -221,7 +201,7 @@ namespace CvManagementApi.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserLogins", (string)null);
+                    b.ToTable("UserLogins", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
@@ -236,7 +216,7 @@ namespace CvManagementApi.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetUserRoles", (string)null);
+                    b.ToTable("UserRoles", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -255,7 +235,7 @@ namespace CvManagementApi.Migrations
 
                     b.HasKey("UserId", "LoginProvider", "Name");
 
-                    b.ToTable("AspNetUserTokens", (string)null);
+                    b.ToTable("UserTokens", (string)null);
                 });
 
             modelBuilder.Entity("Reference", b =>
@@ -378,39 +358,7 @@ namespace CvManagementApi.Migrations
                         .IsUnique()
                         .HasDatabaseName("UserNameIndex");
 
-                    b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "test-user-1",
-                            AccessFailedCount = 0,
-                            AllowedCVs = "[]",
-                            ConcurrencyStamp = "bd935c34-bcc9-4d46-9caf-3c9fd29e6ccc",
-                            Email = "testuser@example.com",
-                            EmailConfirmed = false,
-                            LockoutEnabled = false,
-                            PhoneNumberConfirmed = false,
-                            Role = 1,
-                            SecurityStamp = "a74efce5-c2e4-429c-8e4b-e0a27a35d40f",
-                            TwoFactorEnabled = false,
-                            UserName = "testuser"
-                        },
-                        new
-                        {
-                            Id = "admin-user-1",
-                            AccessFailedCount = 0,
-                            AllowedCVs = "[]",
-                            ConcurrencyStamp = "99881a93-1571-41df-8fc0-79081ca3de3e",
-                            Email = "admin@example.com",
-                            EmailConfirmed = false,
-                            LockoutEnabled = false,
-                            PhoneNumberConfirmed = false,
-                            Role = 0,
-                            SecurityStamp = "80ee60e0-c72c-4d33-a048-c77d6f62b1e4",
-                            TwoFactorEnabled = false,
-                            UserName = "admin"
-                        });
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("CV", b =>
