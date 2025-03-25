@@ -132,6 +132,12 @@ SELECT * FROM CVs;
 
 ---
 
+<<<<<<< HEAD
+## Kontakt
+
+Backend utviklere 
+=======
 ## 📬 Kontakt
 
 Backend utviklere 
+>>>>>>> 944b764 (Siste oppdatering – full push av Kickstep-prosjektet)
