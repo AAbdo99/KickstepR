@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\CvManagementApi\\CvManagementApi.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\CvManagementApi\\CvManagementApi.csproj",
         "packagesPath": "C:\\Users\\eso\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\CvManagementApi\\obj\\",
+=======
+    "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\KickstepR\\CvManagementApi\\CvManagementApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\KickstepR\\CvManagementApi\\CvManagementApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\KickstepR\\CvManagementApi\\CvManagementApi.csproj",
+        "projectName": "CvManagementApi",
+        "projectPath": "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\KickstepR\\CvManagementApi\\CvManagementApi.csproj",
+        "packagesPath": "C:\\Users\\eso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\KickstepR\\CvManagementApi\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

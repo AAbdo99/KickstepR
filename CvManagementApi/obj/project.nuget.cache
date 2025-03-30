@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "wsmUh6m/W+w=",
   "success": true,
   "projectFilePath": "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\CvManagementApi\\CvManagementApi.csproj",
+=======
+  "dgSpecHash": "3E2oCyjcEFI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eso\\OneDrive - TRIMIT\\Dokumenter\\ES\\AdvancedPrograming\\Rejwan\\KickstepR\\KickstepR\\CvManagementApi\\CvManagementApi.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\eso\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\eso\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.1\\microsoft.aspnetcore.authentication.jwtbearer.8.0.1.nupkg.sha512",
