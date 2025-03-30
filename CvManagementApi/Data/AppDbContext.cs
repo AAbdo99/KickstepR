@@ -13,6 +13,14 @@ public class AppDbContext : IdentityDbContext<User>
     public DbSet<Education> Educations { get; set; }
     public DbSet<Experience> Experiences { get; set; }
     public DbSet<Reference> References { get; set; }
+    public DbSet<Award> Awards { get; set; }
+    public DbSet<Certification> Certifications { get; set; }
+    public DbSet<Course> Courses { get; set; }
+    public DbSet<Language> Languages { get; set; }
+    public DbSet<Position> Positions { get; set; }
+    public DbSet<Presentation> Presentations { get; set; }
+    public DbSet<ProjectExperience> ProjectExperiences { get; set; }
+    public DbSet<RoleOverview> RoleOverviews { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -64,5 +72,54 @@ public class AppDbContext : IdentityDbContext<User>
             .WithMany(c => c.References)
             .HasForeignKey(r => r.CVId)
             .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<Award>()
+            .HasOne(a => a.CV)
+            .WithMany(c => c.Awards)
+            .HasForeignKey(a => a.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<Certification>()
+            .HasOne(c=> c.CV)
+            .WithMany(c => c.Certifications)
+            .HasForeignKey(c => c.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<Course>()
+            .HasOne(c=> c.CV)
+            .WithMany(c => c.Courses)
+            .HasForeignKey(c => c.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<Language>()
+            .HasOne(l=> l.CV)
+            .WithMany(c => c.Languages)
+            .HasForeignKey(l => l.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<Position>()
+            .HasOne(p=> p.CV)
+            .WithMany(c => c.Positions)
+            .HasForeignKey(p => p.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<Presentation>()
+            .HasOne(p=> p.CV)
+            .WithMany(c => c.Presentations)
+            .HasForeignKey(p => p.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<ProjectExperience>()
+            .HasOne(p=> p.CV)
+            .WithMany(c => c.ProjectExperiences)
+            .HasForeignKey(p => p.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<RoleOverview>()
+            .HasOne(r=> r.CV)
+            .WithMany(c => c.RoleOverviews)
+            .HasForeignKey(r => r.CVId)
+            .OnDelete(DeleteBehavior.Cascade);
+
     }
 }
