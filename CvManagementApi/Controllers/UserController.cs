@@ -46,7 +46,7 @@ public class UserController : ControllerBase
     // REATE USER-API (kun for Admin)
     // Kun brukere med "Admin"-rolle har tilgang til denne
     [HttpPost("create-user")]
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public async Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
     {
         // Opprett ny bruker basert på request-data

@@ -27,7 +27,7 @@ public class CVController : ControllerBase
 
     // Opprett en CV - kun for innloggede brukere
     [HttpPost("create")]
-    [Authorize]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> CreateCV([FromBody] CV cv)
     {
         var user = await _userManager.GetUserAsync(User);
@@ -42,7 +42,7 @@ public class CVController : ControllerBase
 
     // Hent alle CV-er (Admin ser alt, vanlige brukere ser kun sine egne eller de de har tilgang til)
     [HttpGet]
-    [Authorize]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> GetAllCVs()
     {
         var user = await _userManager.GetUserAsync(User);
@@ -65,7 +65,7 @@ public class CVController : ControllerBase
 
     // Hent en CV (Admin eller bruker med tilgang)
     [HttpGet("{id}")]
-    [Authorize(Roles = "Admin")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> GetCV(int id)
     {
         var cv = await _context.CVs.Include(c => c.Skills).FirstOrDefaultAsync(c => c.Id == id);
