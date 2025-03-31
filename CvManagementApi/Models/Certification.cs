@@ -1,4 +1,6 @@
-    public class Certification
+using System;
+
+public class Certification
     {
         public int Id { get; set; }
         public required string Name { get; set; }

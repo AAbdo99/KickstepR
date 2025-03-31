@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 /* Denne klassen håndterer CV-er og gir disse tilgangene:
 - Brukere kan opprette, redigere, slette sin egen CV
@@ -64,11 +65,11 @@ public class CVController : ControllerBase
 
     // Hent en CV (Admin eller bruker med tilgang)
     [HttpGet("{id}")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> GetCV(int id)
     {
         var cv = await _context.CVs.Include(c => c.Skills).FirstOrDefaultAsync(c => c.Id == id);
-        if (cv == null) return NotFound();
+        if (cv == null) return NotFound(new {message = $"Cv with ID {id} not found"});
 
         var requestingUser = await _userManager.GetUserAsync(User);
         if (requestingUser == null || (requestingUser.Role != UserRole.Admin && cv.UserId != requestingUser.Id))

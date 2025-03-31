@@ -1,4 +1,6 @@
-    public class Presentation
+using System;
+
+public class Presentation
     {
         public int Id { get; set; }
         public required string Title { get; set; } 
