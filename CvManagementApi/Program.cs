@@ -4,6 +4,8 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using CvManagementApi.Middleware; 
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +35,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
         };
+         options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                Console.WriteLine($"🔍 Token mottatt: {context.Token}");
+                return Task.CompletedTask;
+            },
+            OnAuthenticationFailed = context =>
+            {
+                Console.WriteLine($"❌ Autentisering feilet: {context.Exception.Message}");
+                return Task.CompletedTask;
+            }
+        };
     });
 
 // Autorisasjonspolicy
@@ -47,22 +62,49 @@ builder.Services.AddScoped<JwtService>();
 // Controllers + Swagger
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "CV Management API", Version = "v1" });
+
+    // Konfigurer Swagger for JWT-autentisering
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Skriv 'Bearer {token}' for autentisering."
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] { }
+        }
+    });
 });
 
 var app = builder.Build();
 
+// Bruk logging middleware
+app.UseLoggingMiddleware();
+
 // Middleware
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseSwagger();
+app.UseSwaggerUI();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 // Opprett Admin-bruker hvis den ikke finnes
 using (var scope = app.Services.CreateScope())
@@ -94,7 +136,7 @@ using (var scope = app.Services.CreateScope())
         }
         else
         {
-            Console.WriteLine("Admin user creationn failed:");
+            Console.WriteLine("Admin user creation failed:");
             foreach (var error in result.Errors)
             {
                 Console.WriteLine($"- {error.Description}");
@@ -103,7 +145,17 @@ using (var scope = app.Services.CreateScope())
     }
     else
     {
-        Console.WriteLine("Admin user already exist.");
+        // Sjekk om admin-brukeren har "Admin"-rollen
+        var isAdmin = await userManager.IsInRoleAsync(adminUser, "Admin");
+        if (!isAdmin)
+        {
+            await userManager.AddToRoleAsync(adminUser, "Admin");
+            Console.WriteLine("Admin user added to Admin role");
+        }
+        else
+        {
+            Console.WriteLine("Admin user already has Admin role");
+        }
     }
 }
 

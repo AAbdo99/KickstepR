@@ -1,151 +1,151 @@
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/appsettings.Development.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/appsettings.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/CvManagementApi
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/CvManagementApi.deps.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/CvManagementApi.runtimeconfig.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/CvManagementApi.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/CvManagementApi.pdb
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Humanizer.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Build.Locator.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Mono.TextTemplating.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/MySqlConnector.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Npgsql.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.CodeDom.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Composition.Convention.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Composition.Hosting.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Composition.Runtime.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.IO.Pipelines.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Text.Encodings.Web.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/System.Text.Json.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.csproj.AssemblyReference.cache
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.GeneratedMSBuildEditorConfig.editorconfig
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.AssemblyInfoInputs.cache
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.AssemblyInfo.cs
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.csproj.CoreCompileInputs.cache
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.MvcApplicationPartsAssemblyInfo.cs
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.MvcApplicationPartsAssemblyInfo.cache
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.sourcelink.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/staticwebassets.build.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/staticwebassets.development.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/staticwebassets/msbuild.CvManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/staticwebassets/msbuild.build.CvManagementApi.props
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CvManagementApi.props
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CvManagementApi.props
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/staticwebassets.pack.json
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/scopedcss/bundle/CvManagementApi.styles.css
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.csproj.CopyComplete
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/refint/CvManagementApi.dll
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.pdb
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/CvManagementApi.genruntimeconfig.cache
-/Users/ashwaqabdo/Desktop/Kickstep/CvManagementApi/obj/Debug/net8.0/ref/CvManagementApi.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.csproj.AssemblyReference.cache
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.AssemblyInfoInputs.cache
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.AssemblyInfo.cs
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.csproj.CoreCompileInputs.cache
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.sourcelink.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\appsettings.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\CvManagementApi.exe
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\CvManagementApi.deps.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\CvManagementApi.runtimeconfig.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\CvManagementApi.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\CvManagementApi.pdb
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Humanizer.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Npgsql.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.CvManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.build.CvManagementApi.props
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CvManagementApi.props
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CvManagementApi.props
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\scopedcss\bundle\CvManagementApi.styles.css
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManage.704854A3.Up2Date
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\refint\CvManagementApi.dll
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.pdb
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\CvManagementApi.genruntimeconfig.cache
+C:\Users\eso\OneDrive - TRIMIT\Dokumenter\ES\AdvancedPrograming\Rejwan\KickstepR\KickstepR\CvManagementApi\obj\Debug\net8.0\ref\CvManagementApi.dll

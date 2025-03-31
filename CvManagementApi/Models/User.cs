@@ -1,5 +1,6 @@
 // Brukermodell 
 
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 
 public enum UserRole

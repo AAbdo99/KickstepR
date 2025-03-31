@@ -1,5 +1,6 @@
 // CV-modell med relasjoner! 
 
+using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Cryptography.Xml;
 
