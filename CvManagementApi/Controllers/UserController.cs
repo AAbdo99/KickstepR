@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 
 /* Denne klassen håndterer brukere og tilgang 
@@ -45,8 +46,8 @@ public class UserController : ControllerBase
 
     // REATE USER-API (kun for Admin)
     // Kun brukere med "Admin"-rolle har tilgang til denne
-    [HttpPost("create-user")]
-    [Authorize]
+    [HttpPost("create")]
+      [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
     {
         // Opprett ny bruker basert på request-data
@@ -64,6 +65,14 @@ public class UserController : ControllerBase
             return BadRequest(result.Errors); // Feil? Returner valideringsfeil fra Identity
 
         return Ok(new { Message = $"User {request.UserName} created successfully!" });
+    }
+
+    [HttpGet]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+    public async Task<IActionResult> GetAllUsers()
+    {
+        var users = await _userManager.Users.ToListAsync();
+        return Ok(users);
     }
 }
 
