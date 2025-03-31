@@ -26,7 +26,7 @@ public class CVController : ControllerBase
 
 
     // Opprett en CV - kun for innloggede brukere
-    [HttpPost("create")]
+    [HttpPost]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> CreateCV([FromBody] CV cv)
     {
@@ -82,8 +82,8 @@ public class CVController : ControllerBase
 
 
     // Oppdater en CV- Kun eieren altså bruker eller Admin
-    [HttpPut("update/{id}")]
-    [Authorize]
+    [HttpPut("{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> UpdateCV(int id, [FromBody] CV updatedCV)
     {
         var cv = await _context.CVs.FindAsync(id);
@@ -110,8 +110,8 @@ public class CVController : ControllerBase
     }
 
     // Slett en CV - tilgjengelig kun for Admin eller eier(bruker)
-    [HttpDelete("delete/{id}")]
-    [Authorize]
+    [HttpDelete("{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> DeleteCV(int id)
     {
         var cv = await _context.CVs.FindAsync(id);
